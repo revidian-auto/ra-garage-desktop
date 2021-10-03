@@ -17,12 +17,11 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "electron .",
 		"pack": "electron-builder --dir",
-		"dist": "electron-builder",
+		"dist": "electron-builder --linux --mac",
 		"postinstall": "electron-builder install-app-deps"
 	},
 	"build": {
 		"appId": "com.revidianauto.garage",
-		"name": "ra-garage",
 		"productName": "RA Garage",
 		"copyright": "Copyright ©2021 Ricardo N Feliciano",
 		"linux": {
